@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+/*       
+      *{margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+      } */
+      body {
+        margin: 20px;
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+          
+      }
+      .nav {
+        display: flex;
+        align-items: left;
+        width: 96vw;
+        justify-content: space-between;
+        background-color: rgb(120, 126, 126);
+        border: 2px solid;
+      }
+      .p {
+        position: absolute;
+        top: 40%;
+        right: 42%;
+        background-color: aqua;
+
+        padding: 1%;
+        text-align: center;
+        border: 2px solid;
+        display: flex;
+        font-size: 1rem;
+      }
+      .food-section {
+        display: inline-block;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+      }
+
+      .border img {
+        width: 250px;
+        height: 170px;
+        border-radius: 4px;
+        margin: 10px;
+      }
+      .border {
+        display: inline-block;
+        position: relative;
+      }
+      nav a {
+        padding: 0px;
+      
+      }
+      .p p {
+        text-align: center;
+      }
+      .image {
+        position: relative;
+        margin-bottom: 4%;
+      }
+      .image img {
+        height: 95vh;
+        width: 96vw;
+        border: 2px solid;
+      
+      }
+      #name {
+        position: absolute;
+        top: -7%;
+        left: 3%;
+        background-color: gray;
+        color: rgb(248, 253, 253);
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+        font-size: 1rem;
+        padding: 1%;
+        width: 92%;
+        height: 13%;
+        border-radius: 2px;
+      }
+      nav a {
+        text-decoration: none;
+        font-size: 1.2rem;
+        color: black;
+      }
+      .class {
+        display: flex;
+        justify-content: right;
+        align-items: right;
+      }
+      #anchor {
+        font-size: 1.5rem;
+        color: aliceblue;
+        
+      }
+      #form {
+        width: 95%;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 2px;
+      }
+      #button {
+        padding: 5px;
+        color: azure;
+        background-color: black;
+        width: 150px;
+        border-radius: 4px;
+        font-size: 1rem;
+        margin-left: 5px;
+      }
+      .donut{
+        margin-top: 20px;
+      }
+      .donut img{
+    
+        height: 99vh;
+        width: 95vw;
+      border: 2px solid black;
+      }
+      .nav-right a{
+    margin-left:  100px;
+    text-align: center;
+      }
+      .nav-right a:hover{
+   background-color: aliceblue;
+   
+      }
+      .border img:hover{
+         transition: black ease-in-out 4s;
+      }
+      @media(max-width:768px)
+      {
+        .image img {
+        height: 50vh;
+        width: 95vw;
+        border: 2px solid;
+      
+      }
+      .donut img {
+        height: 50vh;
+        width: 95vw;
+        border: 2px solid;
+      
+      }
+         a {
+        text-decoration: none;
+        font-size: 1.25rem;
+        color: black;
+        display: none;
+        padding: 10px;
+      }
+      #anchor{
+        font-size: 0.85rem;
+        color: aliceblue;
+        display: block;
+        text-align: center;
+      }.nav{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      body{
+        margin-left: 10px;
+      }
+      }
+      .image img:hover{
+        background: Red;
+      }
+      footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <nav>
+        <div class="nav">
+          
+          <a href="" id="anchor">THE-RESTAURANT</a>
+          <div class="nav-right">
+            <a href="#home">Home</a>
+            <a href="#services">Services</a>
+          </div>
+        </div>
+      </nav>
+      <div class="image">
+        <img src="pexels-ella-olsson-572949-1640777.jpg" alt="" />
+        <!-- <p class="p">Multi-cuisine -Restaurent</p> -->
+      </div>
+
+      <center>
+        <div class="border" id="home">
+          <img src="food1 (1).jpg" alt="" />
+          <p id="name">Creamy pancake</p>
+        </div>
+        <div class="border">
+          <img src="food1 (2).jpg" alt="" />
+          <p id="name">Bacon-Burger</p>
+        </div>
+        <div class="border">
+          <img src="food1 (3).jpg" alt="" />
+          <p id="name">fruit-cream-Meal </p>
+        </div>
+        <div class="border">
+          <img src="food1 (4).jpg" alt="" />
+
+          <p id="name">Dry-fries</p>
+        </div>
+        <div class="border">
+          <img src="food1 (5).jpg" alt="" />
+          <p id="name">Maccroni-Lettuce</p>
+        </div>
+        <div class="border">
+          <img src="food1 (6).jpg" alt="" />
+          <p id="name">Creamy-Eggs</p>
+        </div>
+
+        <div class="border">
+          <img src="food1 (7).jpg" alt="" />
+          <p id="name">Fry-Salmon</p>
+        </div>
+
+        <div class="border">
+          <img src="food1 (8).jpg" alt="" />
+          <p id="name"> Olive-Bacon</p>
+        </div>
+        <div class="border">
+          <img src="food1 (8).jpg" alt="" />
+          <p id="name">Olive-Bacon</p>
+        </div>
+        <div class="border">
+          <img src="food1 (3).jpg" alt="" />
+          <p id="name">fruit-cream-Meal </p>
+        </div>
+        <div class="border">
+          <img src="food1 (1).jpg" alt="" />
+          <p id="name">Creamy-Pancake</p>
+        </div>
+        <div class="border">
+          <img src="food1 (2).jpg" alt="" />
+          <p id="name">Bacon-Burger</p>
+        </div>
+      </center>
+
+      <h1>About</h1>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi nemo
+        adipisci eum quas odio tempora suscipit ratione tempore ipsam minus
+        officia asperiores earum hic labore, et accusamus repudiandae sapiente
+        voluptas! Quis laudantium ea iste error vel earum maxime beatae dolorem
+        facilis porro, et quibusdam similique libero pariatur, nam a amet Lorem
+        ipsum dolor sit amet consectetur adipisicing elit. Illo adipisci
+        asperiores quibusdam placeat suscipit eaque repudiandae totam eligendi
+        quo aliquam, perspiciatis voluptatibus assumenda. Cupiditate possimus,
+        doloribus architecto consequuntur nobis saepe praesentium provident
+        obcaecati dolor placeat amet, illum, unde aut! Illum id similique ea
+        sequi suscipit iste, quo et unde fugit.
+      </p>
+
+      <h1>Chefs</h1>
+      <center>
+        <div class="border">
+          <img src="chef3.jpg" alt="" />
+          <p id="name">Abraham</p>
+        </div>
+        <div class="border">
+          <img src="chef2.jpg" alt="" />
+          <p id="name">Madhulatha</p>
+        </div>
+        <div class="border">
+          <img src="chef.jpg" alt="" />
+          <p id="name">Williams</p>
+        </div>
+        <div class="border">
+          <img src="che4.jpg" alt="" />
+
+          <p id="name">John-paul</p>
+        </div>
+      </center>
+      <div>
+        <h1 id="services">Contact-Us</h1>
+        <form action="">
+          <input type="text" placeholder="USERNAME" id="form" /> <br />
+          <input type="email" placeholder="ENTER EMAIL" id="form" /> <br />
+          <input type="textarea" placeholder="SUBJECT" id="form" /> <br />
+          <input type="textarea" placeholder="COMMENT HERE" id="form" /> <br />
+          <button type="button" id="button">Send-Message</button>
+        </form>
+      </div>
+      <div class="donut">
+        <img src="head.avif" alt=""/>
+     
+      </div>
+      <footer style="background-color: black; height: 100px;">
+      
+            <p style="color: White; margin-top: 0px; font-size: 1.2rem;">Powered-By:RevanthRevv</p>
+     
+       
+      </footer>
+    </div>
+  </body>
+</html>
